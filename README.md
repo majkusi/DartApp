@@ -1,12 +1,13 @@
 # DartAppClean – Full Stack Application
-# The backend project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/CleanArchitecture) version 9.0.12.
+The backend project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/CleanArchitecture) version 9.0.12.
 
-[![.NET](https://img.shields.io/badge/.NET-9-blue?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![SignalR](https://img.shields.io/badge/SignalR-blue?logo=asp.net&logoColor=white)](https://dotnet.microsoft.com/apps/aspnet/signalr)
-[![Docker](https://img.shields.io/badge/Docker-blue?logo=docker&logoColor=white)](https://www.docker.com/)
+
+[![.NET](https://img.shields.io/badge/.NET-9-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-336791?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![SignalR](https://img.shields.io/badge/SignalR-ASP.NET-512BD4?logo=asp.net&logoColor=white)](https://dotnet.microsoft.com/apps/aspnet/signalr)
+[![Docker](https://img.shields.io/badge/Docker-Blue-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
 
 * **Backend:** ASP.NET 8 API using Clean Architecture and Domain-Driven Design
