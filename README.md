@@ -147,6 +147,9 @@ docker compose exec backend dotnet ef database update
 
 ## Additional Notes
 
+* Note: Database credentials are for local development only and are not used in production.
+
+
 * **CORS & SignalR:** Configured for Docker networking in development
 * **HTTPS:** Disabled for local development
 * **Data Persistence:** PostgreSQL uses a Docker volume `pgdata`
