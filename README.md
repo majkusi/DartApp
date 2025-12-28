@@ -40,14 +40,11 @@ The backend project was generated using the [Clean.Architecture.Solution.Templat
 
 ## Getting Started
 
-Clone the orchestration repository:
+Clone the orchestration repository and update submodules:
 
 ```bash
-git clone https://github.com/majkusi/DartAppClean.Local.git
-cd DartAppClean.Local
-```
-
-```bash
+git clone https://github.com/majkusi/DartApp.git
+cd DartApp
 git submodule update --init --recursive
 ```
 
