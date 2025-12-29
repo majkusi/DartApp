@@ -11,7 +11,7 @@ The backend project was generated using the [Clean.Architecture.Solution.Templat
 [![Docker](https://img.shields.io/badge/Docker-Blue-white?logo=docker&logoColor=white&color=2496ED&style=flat)](https://www.docker.com/)
 
 
-* **Backend:** ASP.NET 8 API using Clean Architecture and Domain-Driven Design
+* **Backend:** ASP.NET 9 API using Clean Architecture and Domain-Driven Design
 * **Database:** PostgreSQL
 * **Frontend:** React + TypeScript
 * **Real-time updates:** SignalR Hubs
