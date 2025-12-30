@@ -116,7 +116,7 @@ docker compose up --build
 docker compose down
 ```
 
-* Reset database:
+* Reset docker:
 
 ```bash
 docker compose down -v
