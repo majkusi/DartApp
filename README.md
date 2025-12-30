@@ -1,6 +1,7 @@
 # DartAppClean – Full Stack Application
 The backend project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/CleanArchitecture) version 9.0.12.
 
+**This is a simple pet-project that allows to play a game of classic 501 darts game. The scoring system is based on inputting a sum of thrown points (similar to how tournaments look like)**
 
 [![.NET](https://img.shields.io/badge/.NET-9-white?logo=dotnet&logoColor=white&color=512BD4&style=flat)](https://dotnet.microsoft.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-white?logo=postgresql&logoColor=white&color=336791&style=flat)](https://www.postgresql.org/)
@@ -10,7 +11,7 @@ The backend project was generated using the [Clean.Architecture.Solution.Templat
 [![Docker](https://img.shields.io/badge/Docker-Blue-white?logo=docker&logoColor=white&color=2496ED&style=flat)](https://www.docker.com/)
 
 
-* **Backend:** ASP.NET 8 API using Clean Architecture and Domain-Driven Design
+* **Backend:** ASP.NET 9 API using Clean Architecture and Domain-Driven Design
 * **Database:** PostgreSQL
 * **Frontend:** React + TypeScript
 * **Real-time updates:** SignalR Hubs
@@ -144,8 +145,8 @@ docker compose exec backend dotnet ef database update
 
 ## Additional Notes
 
-* Note: Database credentials are for local development only and are not used in production.
-
+* Database credentials are for local development only and are not used in production.
+* Login and register feature is currently added but only for backend, no "login" state is kept on frontend. Login and Register forms works but are not fully functional.
 
 * **CORS & SignalR:** Configured for Docker networking in development
 * **HTTPS:** Disabled for local development
