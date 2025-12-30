@@ -1,43 +1,45 @@
 services:
   postgres:
     image: postgres:16
-    container_name: postgres
+    container_name: dartapp_container
+    restart: unless-stopped
     environment:
-      POSTGRES_DB: dartapp
-      POSTGRES_USER: dartapp
+      POSTGRES_DB: dartapp_db
+      POSTGRES_USER: dartapp_user
       POSTGRES_PASSWORD: dartapp
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U dartapp"]
+      test: ["CMD-SHELL", "pg_isready -U dartapp_user -d dartapp_db"]
       interval: 10s
       timeout: 5s
       retries: 5
 
   backend:
-    build: 
-      context: .
-      dockerfile: backend/Dockerfile
-    container_name: backend
+    build: ./backend
+    container_name: dartapp-backend
+    restart: unless-stopped
     depends_on:
       postgres:
         condition: service_healthy
     environment:
-      ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: http://+:8080
-      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=dartapp;Username=dartapp;Password=dartapp
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DartAppCleanDb=Host=dartapp_container;Port=5432;Database=dartapp_db;Username=dartapp_user;Password=dartapp
     ports:
       - "8080:8080"
 
   frontend:
     build: ./frontend
-    container_name: frontend
+    container_name: dartapp-frontend
+    restart: unless-stopped
     depends_on:
       - backend
     environment:
-      VITE_API_URL: http://backend:8080
+      - VITE_API_URL=http://backend:8080
     ports:
       - "5173:5173"
 
 volumes:
   pgdata:
+
