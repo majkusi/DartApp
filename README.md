@@ -152,8 +152,6 @@ docker compose exec backend dotnet ef database update
 * **HTTPS:** Disabled for local development
 * **Data Persistence:** PostgreSQL uses a Docker volume `pgdata`
 * **Clean Architecture:** Backend follows DDD principles with separate layers
-* **Hot Reload:** Frontend runs in development mode with live reload
-
 
 ---
 
