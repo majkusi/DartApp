@@ -78,7 +78,7 @@ DartAppClean.Local/
 | Service  | Description                                             | Port |
 | -------- | ------------------------------------------------------- | ---- |
 | postgres | PostgreSQL database for backend                         | 5432 |
-| backend  | ASP.NET 8 API (Clean Architecture + DDD + SignalR Hubs) | 8080 |
+| backend  | ASP.NET 9 API (Clean Architecture + DDD + SignalR Hubs) | 8080 |
 | frontend | React + TypeScript frontend with hot-reload             | 5173 |
 
 ---
