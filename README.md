@@ -1,4 +1,4 @@
-# DartAppClean – Full Stack Application
+# DartApp – Full Stack Application
 The backend project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/CleanArchitecture) version 9.0.12.
 
 **This is a simple pet-project that allows to play a game of classic 501 darts game. The scoring system is based on inputting a sum of thrown points (similar to how tournaments look like)**
@@ -78,7 +78,7 @@ DartAppClean.Local/
 | Service  | Description                                             | Port |
 | -------- | ------------------------------------------------------- | ---- |
 | postgres | PostgreSQL database for backend                         | 5432 |
-| backend  | ASP.NET 8 API (Clean Architecture + DDD + SignalR Hubs) | 8080 |
+| backend  | ASP.NET 9 API (Clean Architecture + DDD + SignalR Hubs) | 8080 |
 | frontend | React + TypeScript frontend with hot-reload             | 5173 |
 
 ---
@@ -152,8 +152,6 @@ docker compose exec backend dotnet ef database update
 * **HTTPS:** Disabled for local development
 * **Data Persistence:** PostgreSQL uses a Docker volume `pgdata`
 * **Clean Architecture:** Backend follows DDD principles with separate layers
-* **Hot Reload:** Frontend runs in development mode with live reload
-
 
 ---
 
