@@ -1,8 +1,9 @@
 # DartApp – Full Stack Application
 The backend project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/CleanArchitecture) version 9.0.12.
 
+$${\color{red}Currently this application wont work due to MediatR being licensed. Whole game component is based on MediatR hubs.}$$
+
 **This is a simple learning project that allows to play a game of classic 501 darts game. The scoring system is based on inputting a sum of thrown points (similar to how tournaments look like)**
-- `Currently this application wont work due to MediatR being licensed. Whole game component is based on MediatR hubs.`
   
 [![.NET](https://img.shields.io/badge/.NET-9-white?logo=dotnet&logoColor=white&color=512BD4&style=flat)](https://dotnet.microsoft.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-white?logo=postgresql&logoColor=white&color=336791&style=flat)](https://www.postgresql.org/)
