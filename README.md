@@ -3,6 +3,7 @@ The backend project was generated using the [Clean.Architecture.Solution.Templat
 
 ##
 
+
 **This is a simple learning project that allows to play a game of classic 501 darts game. The scoring system is based on inputting a sum of thrown points (similar to how tournaments look like)**
   
 [![.NET](https://img.shields.io/badge/.NET-9-white?logo=dotnet&logoColor=white&color=512BD4&style=flat)](https://dotnet.microsoft.com/)
