@@ -148,7 +148,6 @@ docker compose exec backend dotnet ef database update
 ## Additional Notes
 
 * Database credentials are for local development only and are not used in production.
-* Login and register feature is currently added but only for backend, no "login" state is kept on frontend. Login and Register forms works but are not fully functional.
 
 * **CORS & SignalR:** Configured for Docker networking in development
 * **HTTPS:** Disabled for local development
